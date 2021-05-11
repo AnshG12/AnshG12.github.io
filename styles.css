@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.intro {
+  font-family: sans-serif;
+  margin: 0.25em;
+  padding-left: 0.75em;
+  color: black;
+}
+
+.description {
+ font-family: Arial;
+ padding: 1em;
+ color: #fea82f;
+}
+
+.background {
+  color: #ff6701;
+  background-color:#fcecdd;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+}
