@@ -5,21 +5,25 @@
 }
 
 .intro {
-  font-family: sans-serif;
-  margin: 0.25em;
-  padding-left: 0.75em;
-  color: black;
+  font-family: 'Nosifer', cursive;
+  margin: 0.1em;
+  color: 	#FF8C00;
+  padding-left: 0.5em;
+  font-size: 1cm;
+  text-align: center;
+  background-color: linear-gradient(to left orange, black) ;
 }
 
 .description {
- font-family: Arial;
- padding: 1em;
- color: #fea82f;
+  font-family: 'Itim', cursive;
+ color: darkblue;
+ padding-left: 0.25em;
+ font-size: 1cm; 
 }
 
 .background {
-  color: #ff6701;
-  background-color:#fcecdd;
+  color: #FFFFFF ;
+  background-color: #EFEFEF;
   height: 100%;
 }
 
