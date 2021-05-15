@@ -7,26 +7,52 @@
 .intro {
   font-family: 'Nosifer', cursive;
   margin: 0.1em;
-  color: 	#FF8C00;
+  color:white;
   padding-left: 0.5em;
   font-size: 1cm;
   text-align: center;
-  background-color: linear-gradient(to left orange, black) ;
 }
 
 .description {
-  font-family: 'Itim', cursive;
- color: darkblue;
+ font-family: 'Itim', cursive;
+ color: black;
  padding-left: 0.25em;
  font-size: 1cm; 
+ text-decoration: overline;
+ border: #fc6d6d;
 }
-
-.background {
-  color: #FFFFFF ;
-  background-color: #EFEFEF;
-  height: 100%;
-}
-
 body {
-  height: 100vh;
+  background:linear-gradient(to right, darkcyan,lightblue);
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+}
+.wrapper {
+  display: inline-flex;
+  
+  
+}
+.wrapper .static-txt{
+  font-size: 60px;
+  color: white;
+  font-weight: 400;
+}
+.wrapper .dynamic-txts{
+  align-content: center;
+
+}
+.dynamic-txts li{
+  list-style: none;
+  font-size: 60px;
+  font-weight: 500;
+  color: #fc6d6d;
+  margin-left: 0.5cm;
+}
+
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border: 2px solid #fc6d6d;
 }
