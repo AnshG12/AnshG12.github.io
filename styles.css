@@ -20,6 +20,7 @@
 	font-size: 1cm;
 	text-decoration: overline;
 	border: #fc6d6d;
+	text-align: center;
 }
 body {
 	background: darkcyan;
@@ -29,11 +30,15 @@ body {
 }
 .wrapper {
 	display: inline-flex;
+	margin: 5%;
+	margin-left: 20%;
+	font-family: 'Girassol', cursive;
 }
 .wrapper .static-txt {
 	font-size: 60px;
-	color: white;
+	color: #f1c40f;
 	font-weight: 400;
+	margin-top: 0.25cm;
 }
 .wrapper .dynamic-txts {
 	align-content: center;
@@ -45,7 +50,7 @@ body {
 	list-style: none;
 	font-size: 60px;
 	font-weight: 500;
-	color: #fc6d6d;
+	color: #f39c12;
 	position: relative;
 	top: 0;
 	margin-left: 0.5cm;
@@ -62,7 +67,7 @@ body {
 	width: 100%;
 	background: darkcyan;
 	border-left: 2px solid #fc6d6d;
-	animation: typing 1.5s steps(15) infinite;
+	animation: typing 1.5s steps(11) infinite;
 }
 
 @keyframes typing {
