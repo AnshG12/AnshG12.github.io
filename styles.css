@@ -31,7 +31,7 @@ body {
 .wrapper {
 	display: inline-flex;
 	margin: 5%;
-	margin-left: 20%;
+	margin-left: 15%;
 	font-family: 'Girassol', cursive;
 }
 .wrapper .static-txt {
@@ -81,4 +81,10 @@ body {
 	100% {
 		top: -360px;
 	}
+}
+
+.cc {
+	color: aliceblue;
+	font-size: x-large;
+	padding-left: 5cm;
 }
