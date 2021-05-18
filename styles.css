@@ -32,7 +32,7 @@ body {
 	display: inline-flex;
 	margin: 5%;
 	margin-left: 15%;
-	font-family: 'Girassol', cursive;
+	font-family: "Girassol", cursive;
 }
 .wrapper .static-txt {
 	font-size: 60px;
@@ -88,3 +88,37 @@ body {
 	font-size: x-large;
 	padding-left: 5cm;
 }
+
+header {
+	margin: 1em;
+	padding: 1.25em;
+	font-size: 25px;
+}
+
+.more-information {
+	height: 100%;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	list-style-type: none;
+	margin: 1em;
+}
+
+nav li {
+	padding: 0.55em;
+}
+
+nav li a {
+	font-size: 1.5em;
+	padding: 1em;
+	margin: 1em;
+	text-decoration: none;
+	color: pink;
+	/* Will change color later */
+}
+
+/* TODO Make site responsive */
