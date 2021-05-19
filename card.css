@@ -44,8 +44,8 @@ section::after {
 }
 .container .card {
 	position: relative;
-	width: 800px;
-	height: 800px;
+	width: 600px;
+	height: 600px;
 	background: rgb(255, 255, 255, 0.05);
 	margin: 20px;
 	box-shadow: 0 15px 35px rgb(0, 0, 0, 0.2);
