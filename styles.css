@@ -91,9 +91,18 @@ body {
 
 header {
 	margin: 1em;
-	padding: 1.25em;
+	padding: 1em;
 	font-size: 25px;
+	border: 2px solid black;
 }
+
+header h1 {
+	font-family: sans-serif;
+	color: greenyellow;
+	padding-left: 0.7em;
+}
+
+/* Note: Currently not responsive at all; only fine with larger devices. */
 
 .more-information {
 	height: 100%;
@@ -105,15 +114,15 @@ nav ul {
 	justify-content: space-evenly;
 	align-items: center;
 	list-style-type: none;
-	margin: 1em;
+	margin: 0.25em;
 }
 
 nav li {
-	padding: 0.55em;
+	padding: 0.5em;
 }
 
 nav li a {
-	font-size: 1.5em;
+	font-size: 1em;
 	padding: 1em;
 	margin: 1em;
 	text-decoration: none;
